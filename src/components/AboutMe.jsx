@@ -1,15 +1,13 @@
 import React from 'react';
 
-function AboutMe() {
+export default function AboutMe() {
     return (
         <div className="aboutMeConteiner">
-            <article className="aboutMe">
-                Oi, meu nome é Robertson Maxwel.<br/>
-                Eu sou Desenvolvedor Full Stack.
-            </article>
-            <img src="https://bit.ly/3Fhqdmc" alt="robb with a cap"></img>
+            <p id="aboutMe">
+                Olá, meu nome é Robertson Maxwel, sou natural de Montes Claros / MG.
+                Tenho 29 anos e sou apaixonado por tecnologia.
+                Sou aluno de desenvolvimento web na Trybe, navegue pelos títulos acima para conhecer mais sobre mim.
+            </p>
         </div>
     );
 };
-
-export default AboutMe;
